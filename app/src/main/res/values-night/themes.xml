@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DarkSide" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gray_dark</item>
+        <item name="colorPrimaryVariant">@color/gray_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/red_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorOnBackground">@color/white</item>
+        <!-- Color -->
+
+        <!-- Text -->
+        <item name="textAppearanceBody1">@style/AppTheme.Body1</item>
+        <item name="textAppearanceBody2">@style/AppTheme.Body2</item>
+        <item name="textAppearanceButton">@style/AppTheme.Button</item>
+        <item name="textAppearanceCaption">@style/AppTheme.Caption</item>
+        <item name="textAppearanceOverline">@style/AppTheme.Caption</item>
+        <item name="textAppearanceHeadline1">@style/AppTheme.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/AppTheme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/AppTheme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/AppTheme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/AppTheme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/AppTheme.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/AppTheme.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/AppTheme.Subtitle2</item>
+        <!-- Text -->
+
+        <!-- Style -->
+        <item name="materialCardViewStyle">@style/AppTheme.CardView</item>
+        <!-- Style -->
+    </style>
+</resources>

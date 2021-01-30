@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dark Side</string>
+
+    <!--Global Messages-->
+    <string name="no_data">No data</string>
+    <string name="try_again">Try again</string>
+    <string name="no_server_response">No response</string>
+    <string name="failed_request">There was a fail</string>
+    <string name="failed_server">There was a server fail</string>
+    <string name="no_internet_signal">No internet connection</string>
+    <string name="there_was_fail_try_again">There was a fail. Try again.</string>
+    <string name="failed_action">There was a failure to perform this action</string>
+    <!--Global Messages-->
+
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="follow_system">Follow system</string>
+    <string name="copyright">Star Wars data from Wikipedia\nhttps://en.wikipedia.org/wiki/List_of_Star_Wars_films</string>
+</resources>

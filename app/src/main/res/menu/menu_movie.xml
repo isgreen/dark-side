@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_light"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_light_mode_24"
+        android:title="@string/light"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_dark"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_dark_mode_24"
+        android:title="@string/dark"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_follow_system"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_smartphone_24"
+        android:title="@string/follow_system"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+</menu>
